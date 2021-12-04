@@ -1,0 +1,19 @@
+Задание* N1
+
+curl http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000    
+
+
+Задание* N2
+
+
+vim script
+
+#! home/podfartilo/Documents/ubuntu/Script
+mkdir folder{1..3}
+cd folder3
+touch file{1..3}.txt file{1..2}.json
+ls -la
+mv file1.json file2.json ../folder2
+
+chmod ugo+x script
+./script
